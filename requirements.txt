@@ -1,0 +1,8 @@
+# Versions actually tested with Python 3.11.15 on Windows 11.
+# opencv-contrib-python is installed as a dependency of mediapipe and provides cv2;
+# do not install opencv-python alongside it (two cv2 packages conflict).
+mediapipe==1.1.0
+opencv-contrib-python==5.0.0.93
+PySide6==6.12.0
+numpy==2.4.6
+pytest==9.1.1
